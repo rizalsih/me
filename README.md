@@ -1,1 +1,1 @@
-# hanya memakai CDN Boostrap 5 dan Bulma
+# hanya memakai CDN Bootstrap icons & Bulma
