@@ -1,1 +1,1 @@
-# hanya memakai CDN Bootstrap icons & Bulma
+# hanya memakai CDN Bulma & Font awesome
