@@ -1,0 +1,98 @@
+/* Light Mode (default) */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0.3s ease;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #0d0d0d;
+    color: #e4e4e4;
+}
+
+/* Override elemen teks */
+body.dark-mode h1,
+body.dark-mode p,
+body.dark-mode .has-text-light {
+    color: #f1f1f1 !important;
+}
+
+/* Link color */
+body.dark-mode a {
+    color: #9ecbff !important;
+}
+
+/* Position Icon Toggle */
+.mode-toggle {
+    position: fixed;
+    bottom: 5px;
+    right: 1rem;
+    z-index: 1000;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+}
+
+/* Icon color berbeda saat Light Mode */
+body:not(.dark-mode) .mode-toggle {
+    color: #111;
+}
+
+p,
+a,
+span {
+    color: #5f5f5f !important;
+}
+
+body.dark-mode p,
+body.dark-mode a,
+body.dark-mode span {
+    color: #999 !important;
+}
+
+a {
+    color: #000000;
+}
+
+.hover-bg {
+    display: block;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode .hover-bg:hover {
+    background-color: #555555; /* abu-abu lembut */
+}
+
+.hover-bg:hover {
+    background-color: #ebebeb; /* abu-abu lembut */
+}
+
+/* translate */
+.lang-toggle {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.lang-toggle {
+    position: fixed;
+    bottom: 10px;
+    right: 2.8rem;
+    z-index: 1000;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.lang-toggle {
+    color: #000000;
+}
+
+.dark-mode .lang-toggle {
+    color: #fff;
+}
